@@ -3,6 +3,10 @@
 [![codecov](https://codecov.io/gh/ifnotnil/httpx/graph/badge.svg?token=ljmo2kgqR6)](https://codecov.io/gh/ifnotnil/httpx)[![Go Report Card](https://goreportcard.com/badge/github.com/ifnotnit/httpx)](https://goreportcard.com/report/github.com/ifnotnit/httpx)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/ifnotnit/httpx)](https://pkg.go.dev/github.com/ifnotnit/httpx)
 
+## httpx/compress
+Http middleware (inbound - todo) and RoundTripper (outbound) that handles compression (br.deflate,gzip,zstd).
+
+
 ## httpx/log
 Http middleware (inbound) and RoundTripper (outbound) using slog.
 
