@@ -1,5 +1,5 @@
 # httpx
-[![CI Status](https://github.com/ifnotnit/httpx/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ifnotnit/httpx/actions/workflows/ci.yml)
+[![CI](https://github.com/ifnotnil/httpx/actions/workflows/ci.yml/badge.svg)](https://github.com/ifnotnil/httpx/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/ifnotnil/httpx/graph/badge.svg?token=ljmo2kgqR6)](https://codecov.io/gh/ifnotnil/httpx)[![Go Report Card](https://goreportcard.com/badge/github.com/ifnotnit/httpx)](https://goreportcard.com/report/github.com/ifnotnit/httpx)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/ifnotnit/httpx)](https://pkg.go.dev/github.com/ifnotnit/httpx)
 
