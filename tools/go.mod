@@ -1,7 +1,6 @@
 module github.com/ifnotnil/httpx/tools
 
-go 1.22.1
-toolchain go1.23.6
+go 1.23
 
 // tools version goes here.
 // this go.mod is not used to actually run the tools, only to store the version.
