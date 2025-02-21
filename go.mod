@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/andybalholm/brotli v1.1.1
-	github.com/klauspost/compress v1.17.11
+	github.com/klauspost/compress v1.18.0
 )
 
 // Test dependencies. They will not be pushed downstream as indirect ones.

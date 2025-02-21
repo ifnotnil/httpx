@@ -8,7 +8,7 @@
   "go.disableConcurrentTests": true,
   "go.testTags": "integration",
   "go.testFlags": [
-    "-mod=readonly",
+    //"-mod=readonly",
     "-count=1",
     "-parallel=1",
     "-v",
@@ -18,7 +18,7 @@
   "go.useLanguageServer": true,
   "gopls": {
     "build.buildFlags": [
-      "-mod=readonly",
+      //"-mod=readonly",
     ],
     "build.standaloneTags": [
       "ignore"
