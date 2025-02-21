@@ -20,14 +20,13 @@ func Recoverer(logger *slog.Logger) func(http.Handler) http.Handler {
 					var recoverType slog.Value
 					var recoverVal slog.Value
 
+					recoverType = slog.StringValue(reflect.TypeOf(rvr).String())
 					if err, is := rvr.(error); is {
 						if errors.Is(err, http.ErrAbortHandler) {
 							return
 						}
-						recoverType = slog.StringValue(reflect.TypeOf(err).String())
 						recoverVal = slog.StringValue(err.Error())
 					} else {
-						recoverType = slog.StringValue(reflect.TypeOf(rvr).String())
 						recoverVal = slog.AnyValue(rvr)
 					}
 
